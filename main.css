@@ -39,7 +39,7 @@ ul{
 li{
     margin-top: 1%;
     list-style: none;
-
+    font-size: 1.2rem;
 }
 a{
     text-decoration: none;
@@ -56,15 +56,15 @@ a:hover{
 #section-presentation{
     display: flex;
     flex-direction: column;
-    padding: 2% 0 0 5%;
+    padding-top: 10%;
+    padding-left: 5%;
     max-width : 30%;
     max-height : 100vh;
 }
 .header__h1--title{
-    padding: 8% 0 0 5%;
     font-size: 3rem;
     text-transform: uppercase;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem; 
 }
 .header__p--description{
     color: white;
@@ -175,6 +175,8 @@ a:hover{
     #header{
         height: 100vh;
         background-color: #38302E;
+        display:flex;
+        justify-content: center;
     }
     #nav-bar{
         display:flex;
@@ -213,23 +215,19 @@ a:hover{
     }
     #section-presentation{
         display: flex;
-        flex-direction: column;
-      align-content:center;
-        justify-content: space-between;
-       /* padding: 2% 0 0 5%;*/
+        padding-top: 30%;
         max-width : 70vw;
         
     }
     .header__h1--title{
-        padding: 8% 0 0 5%;
-        font-size: 3rem;
+        font-size: 2rem;
         text-transform: uppercase;
-        margin-bottom:6%;
     }
     .header__p--description{
         color: white;
         height: auto;
         font-size:1rem;
+        
     }
     .header__button--c-t-a{
         margin-top: 2.4rem;
