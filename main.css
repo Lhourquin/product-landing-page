@@ -13,10 +13,10 @@ body{
     color: white;
 }
 #header{
-    height: 100vh;
+    height: 750px;  
+    background: url(http://www.theluxurytrends.com/wp-content/uploads/2018/04/Cartier-Santos-Jake-Gyllenhaal-TheLuxuryTrends.jpg) no-repeat fixed;
     background-size: cover;
-  
-    background-image: url(http://www.theluxurytrends.com/wp-content/uploads/2018/04/Cartier-Santos-Jake-Gyllenhaal-TheLuxuryTrends.jpg);
+
 }
 #nav-bar{
     display:flex;
