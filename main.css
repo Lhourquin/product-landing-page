@@ -298,7 +298,7 @@ a:hover{
 .section-product__div__p{
     padding: 2% 0 2% 0;
     overflow: hidden;
-
+    text-overflow: ellipsis;
 }
 #section-form{
     background-color: #38AECC;
