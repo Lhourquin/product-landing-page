@@ -331,5 +331,41 @@ a:hover{
     padding: 12px 14px;
     margin: 0 1% 0 1%;
 }
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 200px;
+    background-color: #38302E;
 
+}
+.footer__nav{
+    width:100%;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+.footer__nav__ul--network-link{
+    display: flex;
+    width:30%;
+    justify-content: space-around;
+
+}
+.icon{
+    font-size : 3rem;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+.icon:hover{
+    color : whitesmoke;
+    transition: all .1s ease-in-out;
+    transform: scale(1.09);
+}
+.footer__p{
+    display: flex;
+    align-self: center;
+}
 }
