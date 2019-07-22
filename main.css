@@ -91,16 +91,15 @@ body{
     #section-demo{
         background-color: #046E8F;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
         height: 100vh;
     }
     .section-demo__div--container-demo{
-        padding-top:10%;
+        
         display: flex;
-        align-self:center;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
     .section-demo__div--container-demo__h2--title{
@@ -256,16 +255,15 @@ a:hover{
 #section-demo{
     background-color: #046E8F;
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 670px;
 }
 .section-demo__div--container-demo{
-    padding-top:10%;
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .section-demo__div--container-demo__h2--title{
@@ -274,7 +272,7 @@ a:hover{
     font-size: 2.5rem;
 }
 #section-product{
-    height: 100vh;
+    height: 670px;
     background-color: #788585;
     display: flex;
     justify-content: space-around;
@@ -299,6 +297,7 @@ a:hover{
 }
 .section-product__div__p{
     padding: 2% 0 2% 0;
+    overflow: hidden;
 
 }
 #section-form{
